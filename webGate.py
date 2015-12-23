@@ -7,6 +7,9 @@ import re
 PORT_NUMBER = 8080
 
 SMS_TEXT = "test sms text"
+# For future changes, e.g. not used now
+PINCODE_PATTERN = "(\d{6})"
+SERVE_STRING = "/serve_sms?{}"
 
 #This class will handles any incoming request from
 #the browser 
